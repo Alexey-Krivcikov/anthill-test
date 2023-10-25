@@ -21,7 +21,7 @@ button.addEventListener('click', async () => {
     if (data.length === 0) {
       container.textContent = 'No Items';
     } else {
-      data.forEach((item: { name: string }) => {
+      data.forEach((item: responseData) => {
         const name = item.name;
         const itemElement = document.createElement('div');
         itemElement.textContent = name;
