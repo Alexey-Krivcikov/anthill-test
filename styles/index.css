@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.quantity-input {
+  width: 3em;
+  padding: 0.5em;
+  border: .2em solid #E91E63;
+  border-radius: 1em;
+  text-align: center;
+  color: #E91E63;
+  appearance: textfield;
+  margin: 0;
+}
+
+.data-button {
+  border: .2em solid #E91E63;
+  background: white;
+  padding: .85em 1.5em;
+  color: #E91E63;
+  border-radius: 2em;
+  transition: 1s;
+}
+
+.data-button:hover,
+.data-button:focus,
+.data-button:active {
+  background: #E91E63;
+  color: #fff;
+}
+
+.data-container {
+  border: thick double #E91E63;
+  padding: 10px;
+}
+
+.data-container>div {
+  color: #4F4F4F;
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+}
